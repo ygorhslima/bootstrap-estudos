@@ -6,15 +6,40 @@
     <title>CFB Cursos - curso de Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="bg-primary">
 
-    <div class="btn-group btn-group-lg">
-        <button type="button" class="btn btn-primary">HTML</button>
-        <button type="button" class="btn btn-primary">CSS</button>
-        <button type="button" class="btn btn-primary">JAVASCRIPT</button>
-        <button type="button" class="btn btn-primary">TYPESCRIPT</button>
-        <button type="button" class="btn btn-primary">REACT</button>
-        <button type="button" class="btn btn-primary">BOOTSTRAP</button>
+    <div class="container-fluid bg-white my-3 p-3">
+        <div class="btn-group-vertical btn-group-lg">
+            <button type="button" class="btn btn-primary">HTML</button>
+            <button type="button" class="btn btn-primary">CSS</button>
+            <button type="button" class="btn btn-primary">JAVASCRIPT</button>
+            <button type="button" class="btn btn-primary">TYPESCRIPT</button>
+            <button type="button" class="btn btn-primary">REACT</button>
+            <button type="button" class="btn btn-primary">BOOTSTRAP</button>
+        </div>
+    
+        <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-primary">HTML</button>
+            <button type="button" class="btn btn-primary">CSS</button>
+            
+            
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">linguagens</button>
+                
+                <button class="dropdown-menu">
+                    <a href="#" class="dropdown-item">javascript</a>
+                    <a href="#" class="dropdown-item">Python</a>
+                    <a href="#" class="dropdown-item">Java</a>
+                    <a href="#" class="dropdown-item">PHP</a>
+                    <a href="#" class="dropdown-item">Ruby</a>
+                    <a href="#" class="dropdown-item">C#</a>
+                </button>
+            
+            </div>
+
+            <button type="button" class="btn btn-primary">REACT</button>
+            <button type="button" class="btn btn-primary">BOOTSTRAP</button>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
